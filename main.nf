@@ -115,7 +115,7 @@ def helpMessage() {
 
     Mandatory arguments:
       --input [file]                  Path to bgzipped input FASTA (must be surrounded with quotes)
-      -- n_haplotypes [int]             Number of mappings to retain for each segment.
+      --n_haplotypes [int]             Number of mappings to retain for each segment.
       -profile [str]                  Configuration profile to use. Can use multiple (comma separated)
                                       Available: conda, docker, singularity, test, awsbatch, <institute> and more
     PAF options:
@@ -142,7 +142,7 @@ def helpMessage() {
       --seqwish_temp_dir [str]          directory for temporary files
 
     Smoothxg options:
-      --smoothxg_haplotypes-smooth [n]number of haplotypes if different than set with --n_haplotypes [default: n_haplotypes]
+      --smoothxg_haplotypes-smooth [n] number of haplotypes if different than set with --n_haplotypes [default: n_haplotypes]
       --smoothxg_max_path_jump [n]    maximum path jump to include in block [default: 0]
       --smoothxg_max_edge_jump [n]    maximum edge jump before breaking [default: 0]
       --smoothxg_poa_length [n]       maximum sequence length to put into POA, can be a comma-separated list; 
