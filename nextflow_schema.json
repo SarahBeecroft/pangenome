@@ -22,7 +22,7 @@
                     "help_text": "Use this to specify the location of your input FASTA file. For example:\n\n```bash\n--input 'path/to/data/input.fa.gz'\n```\n\n."
                 },
                 "n_haplotypes": {
-                    "type": "string",
+                    "type": "integer",
                     "default": "None",
                     "fa_icon": "fas fa-dna"
                 },
